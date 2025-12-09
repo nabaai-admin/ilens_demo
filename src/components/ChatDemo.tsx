@@ -29,157 +29,157 @@ interface DemoMessage {
 const demoScenarios: { [key in 'ar' | 'en']: Array<{ title: string; messages: DemoMessage[] }> } = {
   ar: [
     {
-      title: "خدمات الكهرباء",
+      title: "ألوان العدسات",
       messages: [
-        { text: "أريد معرفة أسعار تغيير الأفياش", sender: 'user' as const },
-        { text: "أهلاً وسهلاً في I Lens! يسعدني مساعدتك.\n\nأسعار خدمات الكهرباء لدينا:\n💡 تغيير أفياش الكهرباء: 10 ر.س\n💡 تغيير الإنارة: تبدأ من 10 ر.س\n💡 تمديد أسلاك كهرباء: تبدأ من 200 ر.س\n\nالأسعار شاملة ضريبة 15%", sender: 'bot' as const },
-        { text: "ممتاز، أريد تركيب إنارة جديدة", sender: 'user' as const },
-        { 
-          text: "سأساعدك في حجز خدمة تركيب الإنارة. يمكنك:",
+        { text: "أريد عدسات باللون العسلي", sender: 'user' as const },
+        { text: "أهلاً وسهلاً في I Lens! 🌟 يسعدني مساعدتك.\n\nلدينا مجموعة رائعة من العدسات العسلية:\n👁️ عدسات Honey - لون عسلي دافئ\n✨ عدسات Hazel - عسلي مع لمسات خضراء\n🌸 عدسات Light Brown - بني فاتح طبيعي\n\nجميع العدسات متوفرة بنوعين:\n📅 يومية - استعمال واحد\n📆 شهرية - تستخدم لمدة شهر", sender: 'bot' as const },
+        { text: "كم سعر العدسات الشهرية؟", sender: 'user' as const },
+        {
+          text: "إليك خيارات العدسات العسلية الشهرية:",
           sender: 'bot' as const,
           products: [
-            { name: "تركيب إنارة عادية", price: "10 ر.س", image: "/api/placeholder/100/100" },
-            { name: "تركيب إنارة LED", price: "15 ر.س", image: "/api/placeholder/100/100" },
-            { name: "تركيب إنارة خارجية", price: "20 ر.س", image: "/api/placeholder/100/100" }
+            { name: "Honey Monthly - عسلي", price: "75 ر.س", image: "/api/placeholder/100/100" },
+            { name: "Hazel Monthly - عسلي مخضر", price: "75 ر.س", image: "/api/placeholder/100/100" },
+            { name: "3 علب (عرض خاص)", price: "200 ر.س", image: "/api/placeholder/100/100" }
           ]
         },
-        { text: "كم المدة للزيارة؟", sender: 'user' as const },
-        { text: "⏰ نحجز لك موعد خلال 24 ساعة\n📍 الخدمة متوفرة في جميع أنحاء المملكة\n👷 فني محترف ومعتمد\n✅ ضمان على الخدمة", sender: 'bot' as const }
+        { text: "هل التوصيل مجاني؟", sender: 'user' as const },
+        { text: "نعم! 🚚 التوصيل مجاني للطلبات فوق 100 ر.س\n⏰ التوصيل خلال 1-3 أيام عمل\n📦 التغليف آمن ومحكم\n✅ جميع العدسات أصلية 100%", sender: 'bot' as const }
       ] as DemoMessage[]
     },
     {
-      title: "السباكة وكشف التسريبات",
+      title: "العناية بالعدسات",
       messages: [
-        { text: "عندي مشكلة تسريب في الحمام", sender: 'user' as const },
-        { text: "أعتذر لهذه المشكلة! سأساعدك فوراً. لدينا خدمات متخصصة لكشف وإصلاح التسريبات.\n\nأي نوع من التسريب تواجه؟", sender: 'bot' as const },
-        { text: "أعتقد أن هناك تسريب من الخلاط", sender: 'user' as const },
-        { 
-          text: "إليك خدمات السباكة المتوفرة:",
+        { text: "كيف أحافظ على العدسات الشهرية؟", sender: 'user' as const },
+        { text: "سؤال مهم جداً! 💙 العناية الصحيحة تضمن سلامة عينيك.\n\nإليك نصائح العناية الأساسية:", sender: 'bot' as const },
+        { text: "ما هي الخطوات بالتفصيل؟", sender: 'user' as const },
+        {
+          text: "خطوات العناية بعدساتك:",
           sender: 'bot' as const,
           products: [
-            { name: "صيانة خلاطات الماء", price: "يبدأ من 50 ر.س", image: "/api/placeholder/100/100" },
-            { name: "فحص كشف التسريبات", price: "يبدأ من 350 ر.س", image: "/api/placeholder/100/100" },
-            { name: "تركيب أدوات صحية", price: "يبدأ من 25 ر.س", image: "/api/placeholder/100/100" }
+            { name: "محلول عدسات (350 ml)", price: "35 ر.س", image: "/api/placeholder/100/100" },
+            { name: "علبة تخزين فاخرة", price: "20 ر.س", image: "/api/placeholder/100/100" },
+            { name: "طقم العناية الكامل", price: "50 ر.س", image: "/api/placeholder/100/100" }
           ]
         },
-        { text: "كم يستغرق الفحص؟", sender: 'user' as const },
-        { text: "🔍 فحص التسريبات يتم خلال ساعة إلى ساعتين\n🛠️ الإصلاح في نفس الزيارة إن أمكن\n💰 الأسعار شاملة ضريبة 15%\n📞 للحجز: تواصل معنا عبر الموقع", sender: 'bot' as const }
+        { text: "كيف أستخدم المحلول؟", sender: 'user' as const },
+        { text: "طريقة الاستخدام الصحيحة:\n\n1️⃣ اغسلي يديك جيداً قبل لمس العدسات\n2️⃣ ضعي العدسة في راحة يدك وأضيفي قطرات من المحلول\n3️⃣ افركي العدسة بلطف لمدة 20 ثانية\n4️⃣ اشطفيها بالمحلول النظيف\n5️⃣ احفظيها في العلبة مع محلول جديد\n\n⚠️ لا تستخدمي الماء العادي أبداً!", sender: 'bot' as const }
       ] as DemoMessage[]
     },
     {
-      title: "التكييف والتبريد",
+      title: "طلب العدسات",
       messages: [
-        { text: "المكيف عندي ما يبرد", sender: 'user' as const },
-        { text: "سأساعدك في حل مشكلة التكييف. لدينا فنيون متخصصون في صيانة وإصلاح جميع أنواع المكيفات.", sender: 'bot' as const },
-        { text: "كم سعر الفحص والإصلاح؟", sender: 'user' as const },
-        { 
-          text: "إليك أسعار خدمات التكييف:",
+        { text: "أريد طلب عدسات رمادية", sender: 'user' as const },
+        { text: "اختيار رائع! 💎 العدسات الرمادية من أكثر الألوان المطلوبة.\n\nما نوع العدسات المفضلة لديك؟", sender: 'bot' as const },
+        { text: "أفضل اليومية، أسهل في الاستخدام", sender: 'user' as const },
+        {
+          text: "ممتاز! إليك خيارات العدسات الرمادية اليومية:",
           sender: 'bot' as const,
           products: [
-            { name: "عدم تبريد المكيف", price: "يبدأ من 150 ر.س", image: "/api/placeholder/100/100" },
-            { name: "تعبئة الفريون", price: "115 ر.س", image: "/api/placeholder/100/100" },
-            { name: "عطل في تشغيل المكيف", price: "يبدأ من 150 ر.س", image: "/api/placeholder/100/100" },
-            { name: "تقطير من المكيف", price: "يبدأ من 170 ر.س", image: "/api/placeholder/100/100" }
+            { name: "Gray Daily - 10 قطع", price: "45 ر.س", image: "/api/placeholder/100/100" },
+            { name: "Silver Gray Daily - 10 قطع", price: "45 ر.س", image: "/api/placeholder/100/100" },
+            { name: "عرض: 30 قطعة", price: "120 ر.س", image: "/api/placeholder/100/100" }
           ]
         },
-        { text: "هل لديكم خدمة فك وتركيب؟", sender: 'user' as const },
-        { text: "نعم! خدمة فك وتركيب المكيفات:\n\n❄️ فك أو تركيب المكيفات: يبدأ من 500 ر.س\n🔧 فريق متخصص ومعتمد\n✅ ضمان على التركيب\n📱 يمكنك زيارة حاسبة الأسعار على موقعنا", sender: 'bot' as const }
+        { text: "كيف أحدد المقاس المناسب؟", sender: 'user' as const },
+        { text: "📏 المقاسات المتوفرة:\n\n• 14.0 mm - الأكثر شيوعاً\n• 14.2 mm - للعيون الكبيرة\n• 14.5 mm - لإطلالة أوسع\n\n💡 ننصح بـ 14.0 mm للاستخدام اليومي\n\nإذا كنتِ غير متأكدة، يمكنك استشارة طبيب العيون أو تجربة المقاس القياسي 14.0", sender: 'bot' as const }
       ] as DemoMessage[]
     },
     {
-      title: "مكافحة الحشرات",
+      title: "أنواع العدسات",
       messages: [
-        { text: "أحتاج خدمة مكافحة حشرات لشقتي", sender: 'user' as const },
-        { text: "أهلاً بك! نوفر خدمات مكافحة حشرات احترافية بأحدث التقنيات.\n\nما نوع العقار؟ شقة، دور، فيلا أم محل تجاري؟", sender: 'bot' as const },
-        { text: "شقة، وأريد معرفة الأسعار", sender: 'user' as const },
-        { 
-          text: "إليك خيارات خدمة مكافحة الحشرات:",
+        { text: "ما الفرق بين العدسات اليومية والشهرية؟", sender: 'user' as const },
+        { text: "سؤال ممتاز! دعيني أوضح لك الفرق:\n\n📅 العدسات اليومية:\n✓ تُستخدم مرة واحدة فقط\n✓ لا تحتاج محلول أو علبة حفظ\n✓ صحية أكثر - أقل احتمال للعدوى\n✓ مثالية للاستخدام المتقطع\n\n📆 العدسات الشهرية:\n✓ تُستخدم لمدة شهر كامل\n✓ تحتاج عناية يومية بالمحلول\n✓ أوفر للاستخدام اليومي\n✓ تنوع أكبر في الألوان", sender: 'bot' as const },
+        { text: "أي نوع تنصحوني به؟", sender: 'user' as const },
+        {
+          text: "يعتمد على نمط حياتك! إليك توصياتنا:",
           sender: 'bot' as const,
           products: [
-            { name: "زيارة واحدة - شقة", price: "يبدأ من 260 ر.س", image: "/api/placeholder/100/100" },
-            { name: "عقد شقة (4 زيارات)", price: "يبدأ من 825 ر.س", image: "/api/placeholder/100/100" }
+            { name: "للمبتدئين - يومية", price: "من 45 ر.س", image: "/api/placeholder/100/100" },
+            { name: "للاستخدام اليومي - شهرية", price: "من 75 ر.س", image: "/api/placeholder/100/100" },
+            { name: "للمناسبات - يومية ملونة", price: "من 50 ر.س", image: "/api/placeholder/100/100" }
           ]
         },
-        { text: "ما الفرق بين الزيارة الواحدة والعقد؟", sender: 'user' as const },
-        { text: "📋 الزيارة الواحدة: معالجة فورية لمشكلة طارئة\n\n📝 العقد (4 زيارات): حماية مستمرة على مدار السنة\n✅ زيارات دورية كل 3 أشهر\n💰 توفير في التكلفة\n🛡️ حماية شاملة ومستمرة\n\nالأسعار شاملة ضريبة 15%", sender: 'bot' as const }
+        { text: "شكراً، سأطلب العدسات الشهرية", sender: 'user' as const },
+        { text: "اختيار موفق! 🎉\n\nتذكري النصائح المهمة:\n🧴 استخدمي محلول عدسات نوعية جيدة\n👁️ لا تنامي بالعدسات\n🚿 لا تستحمي بها\n⏰ استبدليها كل شهر بالضبط\n\nهل تحتاجين محلول عدسات مع طلبك؟", sender: 'bot' as const }
       ] as DemoMessage[]
     }
   ],
   en: [
     {
-      title: "Electrical Services",
+      title: "Lens Colors",
       messages: [
-        { text: "I want to know the prices for changing electrical outlets", sender: 'user' as const },
-        { text: "Welcome to I Lens! I'm happy to help you.\n\nOur electrical service prices:\n💡 Electrical outlet replacement: 10 SAR\n💡 Lighting replacement: starts from 10 SAR\n💡 Electrical wiring extension: starts from 200 SAR\n\nPrices include 15% VAT", sender: 'bot' as const },
-        { text: "Great, I want to install new lighting", sender: 'user' as const },
-        { 
-          text: "I'll help you book a lighting installation service. You can choose:",
+        { text: "I want honey colored lenses", sender: 'user' as const },
+        { text: "Welcome to I Lens! 🌟 I'm happy to help you.\n\nWe have a beautiful collection of honey lenses:\n👁️ Honey - Warm honey tone\n✨ Hazel - Honey with green hints\n🌸 Light Brown - Natural light brown\n\nAll lenses available in two types:\n📅 Daily - Single use\n📆 Monthly - Use for one month", sender: 'bot' as const },
+        { text: "How much are the monthly lenses?", sender: 'user' as const },
+        {
+          text: "Here are the monthly honey lens options:",
           sender: 'bot' as const,
           products: [
-            { name: "Regular lighting installation", price: "10 SAR", image: "/api/placeholder/100/100" },
-            { name: "LED lighting installation", price: "15 SAR", image: "/api/placeholder/100/100" },
-            { name: "Outdoor lighting installation", price: "20 SAR", image: "/api/placeholder/100/100" }
+            { name: "Honey Monthly", price: "75 SAR", image: "/api/placeholder/100/100" },
+            { name: "Hazel Monthly", price: "75 SAR", image: "/api/placeholder/100/100" },
+            { name: "3 Boxes (Special Offer)", price: "200 SAR", image: "/api/placeholder/100/100" }
           ]
         },
-        { text: "How long until the visit?", sender: 'user' as const },
-        { text: "⏰ We schedule an appointment within 24 hours\n📍 Service available throughout Saudi Arabia\n👷 Professional and certified technician\n✅ Service warranty included", sender: 'bot' as const }
+        { text: "Is delivery free?", sender: 'user' as const },
+        { text: "Yes! 🚚 Free delivery for orders over 100 SAR\n⏰ Delivery within 1-3 business days\n📦 Safe and secure packaging\n✅ All lenses 100% authentic", sender: 'bot' as const }
       ] as DemoMessage[]
     },
     {
-      title: "Plumbing & Leak Detection",
+      title: "Lens Care",
       messages: [
-        { text: "I have a leak problem in the bathroom", sender: 'user' as const },
-        { text: "Sorry to hear about this issue! I'll help you right away. We have specialized services for leak detection and repair.\n\nWhat type of leak are you facing?", sender: 'bot' as const },
-        { text: "I think there's a leak from the faucet", sender: 'user' as const },
-        { 
-          text: "Here are our available plumbing services:",
+        { text: "How do I care for monthly lenses?", sender: 'user' as const },
+        { text: "Very important question! 💙 Proper care ensures your eye safety.\n\nHere are the basic care tips:", sender: 'bot' as const },
+        { text: "What are the detailed steps?", sender: 'user' as const },
+        {
+          text: "Steps to care for your lenses:",
           sender: 'bot' as const,
           products: [
-            { name: "Faucet maintenance", price: "starts from 50 SAR", image: "/api/placeholder/100/100" },
-            { name: "Leak detection inspection", price: "starts from 350 SAR", image: "/api/placeholder/100/100" },
-            { name: "Sanitary equipment installation", price: "starts from 25 SAR", image: "/api/placeholder/100/100" }
+            { name: "Lens Solution (350 ml)", price: "35 SAR", image: "/api/placeholder/100/100" },
+            { name: "Premium Storage Case", price: "20 SAR", image: "/api/placeholder/100/100" },
+            { name: "Complete Care Kit", price: "50 SAR", image: "/api/placeholder/100/100" }
           ]
         },
-        { text: "How long does the inspection take?", sender: 'user' as const },
-        { text: "🔍 Leak inspection takes 1 to 2 hours\n🛠️ Repair during the same visit if possible\n💰 Prices include 15% VAT\n📞 To book: Contact us through the website", sender: 'bot' as const }
+        { text: "How do I use the solution?", sender: 'user' as const },
+        { text: "Proper usage method:\n\n1️⃣ Wash your hands thoroughly before touching lenses\n2️⃣ Place lens in your palm and add solution drops\n3️⃣ Gently rub the lens for 20 seconds\n4️⃣ Rinse with clean solution\n5️⃣ Store in case with fresh solution\n\n⚠️ Never use regular water!", sender: 'bot' as const }
       ] as DemoMessage[]
     },
     {
-      title: "Air Conditioning & Cooling",
+      title: "Order Lenses",
       messages: [
-        { text: "My AC is not cooling", sender: 'user' as const },
-        { text: "I'll help you solve the AC problem. We have specialized technicians for maintenance and repair of all AC types.", sender: 'bot' as const },
-        { text: "What's the price for inspection and repair?", sender: 'user' as const },
-        { 
-          text: "Here are our AC service prices:",
+        { text: "I want to order gray lenses", sender: 'user' as const },
+        { text: "Great choice! 💎 Gray lenses are among our most popular.\n\nWhat type of lenses do you prefer?", sender: 'bot' as const },
+        { text: "I prefer daily, easier to use", sender: 'user' as const },
+        {
+          text: "Excellent! Here are the daily gray lens options:",
           sender: 'bot' as const,
           products: [
-            { name: "AC not cooling", price: "starts from 150 SAR", image: "/api/placeholder/100/100" },
-            { name: "Freon refill", price: "115 SAR", image: "/api/placeholder/100/100" },
-            { name: "AC operation malfunction", price: "starts from 150 SAR", image: "/api/placeholder/100/100" },
-            { name: "AC water leakage", price: "starts from 170 SAR", image: "/api/placeholder/100/100" }
+            { name: "Gray Daily - 10 pieces", price: "45 SAR", image: "/api/placeholder/100/100" },
+            { name: "Silver Gray Daily - 10 pieces", price: "45 SAR", image: "/api/placeholder/100/100" },
+            { name: "Offer: 30 pieces", price: "120 SAR", image: "/api/placeholder/100/100" }
           ]
         },
-        { text: "Do you have installation and removal service?", sender: 'user' as const },
-        { text: "Yes! AC installation and removal service:\n\n❄️ AC installation or removal: starts from 500 SAR\n🔧 Specialized and certified team\n✅ Installation warranty\n📱 You can visit the price calculator on our website", sender: 'bot' as const }
+        { text: "How do I determine the right size?", sender: 'user' as const },
+        { text: "📏 Available sizes:\n\n• 14.0 mm - Most common\n• 14.2 mm - For larger eyes\n• 14.5 mm - For wider look\n\n💡 We recommend 14.0 mm for daily use\n\nIf you're unsure, consult an eye doctor or try the standard 14.0 size", sender: 'bot' as const }
       ] as DemoMessage[]
     },
     {
-      title: "Pest Control",
+      title: "Lens Types",
       messages: [
-        { text: "I need pest control service for my apartment", sender: 'user' as const },
-        { text: "Welcome! We provide professional pest control services with the latest technologies.\n\nWhat type of property? Apartment, floor, villa, or commercial space?", sender: 'bot' as const },
-        { text: "Apartment, and I want to know the prices", sender: 'user' as const },
-        { 
-          text: "Here are the pest control service options:",
+        { text: "What's the difference between daily and monthly lenses?", sender: 'user' as const },
+        { text: "Excellent question! Let me explain the difference:\n\n📅 Daily Lenses:\n✓ Used only once\n✓ No need for solution or storage case\n✓ More hygienic - less infection risk\n✓ Ideal for occasional use\n\n📆 Monthly Lenses:\n✓ Used for a full month\n✓ Require daily care with solution\n✓ More economical for daily use\n✓ Greater variety of colors", sender: 'bot' as const },
+        { text: "Which type do you recommend?", sender: 'user' as const },
+        {
+          text: "It depends on your lifestyle! Here are our recommendations:",
           sender: 'bot' as const,
           products: [
-            { name: "Single visit - Apartment", price: "starts from 260 SAR", image: "/api/placeholder/100/100" },
-            { name: "Apartment contract (4 visits)", price: "starts from 825 SAR", image: "/api/placeholder/100/100" }
+            { name: "For Beginners - Daily", price: "from 45 SAR", image: "/api/placeholder/100/100" },
+            { name: "For Daily Use - Monthly", price: "from 75 SAR", image: "/api/placeholder/100/100" },
+            { name: "For Events - Colored Daily", price: "from 50 SAR", image: "/api/placeholder/100/100" }
           ]
         },
-        { text: "What's the difference between single visit and contract?", sender: 'user' as const },
-        { text: "📋 Single visit: Immediate treatment for urgent problem\n\n📝 Contract (4 visits): Continuous protection throughout the year\n✅ Regular visits every 3 months\n💰 Cost savings\n🛡️ Comprehensive and continuous protection\n\nPrices include 15% VAT", sender: 'bot' as const }
+        { text: "Thanks, I'll order the monthly lenses", sender: 'user' as const },
+        { text: "Great choice! 🎉\n\nRemember the important tips:\n🧴 Use quality lens solution\n👁️ Don't sleep with lenses\n🚿 Don't shower with them\n⏰ Replace every month exactly\n\nDo you need lens solution with your order?", sender: 'bot' as const }
       ] as DemoMessage[]
     }
   ]
@@ -244,7 +244,7 @@ export default function ChatDemo() {
       setMessages([]);
       setMessageIndex(0);
       setIsTyping(false);
-      
+
       timeoutRef.current = setTimeout(() => {
         addMessage(0);
       }, 1000);
@@ -264,20 +264,20 @@ export default function ChatDemo() {
 
   const addMessage = (index: number) => {
     if (!isVisible) return; // Stop if not visible
-    
+
     const scenario = scenarios[currentScenario];
     if (index >= scenario.messages.length) return;
 
     const message = scenario.messages[index];
-    
+
     setIsTyping(true);
-    
+
     timeoutRef.current = setTimeout(() => {
       if (!isVisible) {
         setIsTyping(false);
         return;
       }
-      
+
       setMessages(prev => [...prev, {
         id: Date.now(),
         text: message.text,
@@ -287,7 +287,7 @@ export default function ChatDemo() {
       }]);
       setIsTyping(false);
       setMessageIndex(index + 1);
-      
+
       // Auto continue to next message only if still visible
       if (index + 1 < scenario.messages.length && isVisible) {
         timeoutRef.current = setTimeout(() => addMessage(index + 1), 2000);
@@ -350,18 +350,17 @@ export default function ChatDemo() {
                       <Bot className="w-3 h-3 sm:w-4 sm:h-4 text-primary-foreground" />
                     </div>
                   )}
-                  
+
                   <div>
                     <div
-                      className={`rounded-lg p-2.5 sm:p-3 ${
-                        message.sender === 'user'
+                      className={`rounded-lg p-2.5 sm:p-3 ${message.sender === 'user'
                           ? 'bg-primary text-primary-foreground'
                           : 'bg-muted text-foreground'
-                      }`}
+                        }`}
                     >
                       <p className="text-xs sm:text-sm whitespace-pre-line leading-relaxed">{message.text}</p>
                     </div>
-                    
+
                     {message.products && (
                       <div className="mt-2 sm:mt-3 space-y-2">
                         {message.products.map((product, index) => (

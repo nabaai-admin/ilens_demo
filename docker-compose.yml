@@ -3,7 +3,7 @@ version: '3.8'
 services:
   ilens-web:
     build: .
-    container_name: ilens-yemen-ai-demo
+    container_name: ilens-ai-demo
     ports:
       - "7098:80"      # Host port 7098 → Container port 80
     restart: unless-stopped

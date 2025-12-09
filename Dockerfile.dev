@@ -1,4 +1,4 @@
-# Development Dockerfile for I Lens Yemen AI Demo (React/TypeScript/Vite)
+# Development Dockerfile for I Lens AI Demo (React/TypeScript/Vite)
 FROM node:18-alpine
 
 # Set working directory

@@ -1,4 +1,4 @@
-# Stage 1: Build I Lens Yemen AI Demo React App
+# Stage 1: Build I Lens AI Demo React App
 FROM node:20-alpine AS builder
 
 WORKDIR /app
