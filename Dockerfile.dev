@@ -1,0 +1,18 @@
+# Development Dockerfile for I Lens Yemen AI Demo (React/TypeScript/Vite)
+FROM node:18-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Install dependencies
+COPY package.json package-lock.json* ./
+RUN npm ci
+
+# Copy source code
+COPY . .
+
+# Expose port 5173 for Vite development server
+EXPOSE 5173
+
+# Start development server
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "5173"] 
