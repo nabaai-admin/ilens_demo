@@ -9,72 +9,72 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 220 15% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 15% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 15% 25%;
 
-    /* Naba AI Brand Colors */
-    --primary: 196 67% 45%; /* Blue #2596be */
-    --primary-foreground: 0 0% 98%;
-    --primary-light: 196 67% 55%;
-    --primary-dark: 196 67% 35%;
+    /* I Lens Soft Brand Colors - Pink/Coral theme */
+    --primary: 340 82% 75%; /* Soft pink/coral #f59bb5 */
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 340 82% 85%;
+    --primary-dark: 340 82% 65%;
 
-    --secondary: 196 67% 65%; /* Lighter blue variation */
-    --secondary-foreground: 0 0% 98%;
-    --secondary-light: 196 67% 75%;
-    --secondary-dark: 196 67% 55%;
+    --secondary: 320 70% 80%; /* Light lavender-pink */
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 320 70% 90%;
+    --secondary-dark: 320 70% 70%;
 
-    --accent: 196 67% 95%;
-    --accent-foreground: 196 67% 20%;
+    --accent: 340 100% 97%; /* Very light pink */
+    --accent-foreground: 340 82% 35%;
 
-    --muted: 196 13% 96%;
-    --muted-foreground: 196 9% 46%;
+    --muted: 320 30% 96%; /* Very light lavender */
+    --muted-foreground: 220 15% 55%;
 
-    /* Header specific */
-    --header-bg: 179 92% 94%; /* #e3fcfb */
+    /* Header specific - soft pastel background */
+    --header-bg: 340 100% 97%; /* Very light pink #fff5f8 */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 70% 65%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 196 13% 91%;
-    --input: 196 13% 91%;
-    --ring: 196 67% 45%;
+    --border: 320 25% 92%;
+    --input: 320 25% 95%;
+    --ring: 340 82% 75%;
 
-    /* Gradients */
+    /* Gradients - soft and elegant */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-light)) 50%, hsl(var(--secondary)) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(340 82% 85%) 0%, hsl(320 70% 85%) 50%, hsl(300 65% 85%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(var(--background)) 0%, hsl(var(--accent)) 100%);
     
-    /* Shadows */
-    --shadow-elegant: 0 10px 30px -10px hsl(var(--primary) / 0.3);
-    --shadow-glow: 0 0 40px hsl(var(--primary) / 0.2);
-    --shadow-float: 0 20px 40px -10px hsl(var(--primary) / 0.15);
+    /* Shadows - softer and lighter */
+    --shadow-elegant: 0 10px 30px -10px hsl(340 82% 75% / 0.25);
+    --shadow-glow: 0 0 40px hsl(340 82% 75% / 0.15);
+    --shadow-float: 0 20px 40px -10px hsl(340 82% 75% / 0.12);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
+    --sidebar-background: 340 100% 98%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-foreground: 220 15% 30%;
 
-    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary: 340 82% 75%;
 
-    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-primary-foreground: 0 0% 100%;
 
-    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent: 340 100% 96%;
 
-    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-accent-foreground: 340 82% 35%;
 
-    --sidebar-border: 220 13% 91%;
+    --sidebar-border: 320 25% 92%;
 
-    --sidebar-ring: 217.2 10.6% 64.9%;
+    --sidebar-ring: 340 82% 75%;
   }
 
   .dark {
