@@ -16,7 +16,7 @@ export default function ContactSection() {
     window.open('https://wa.link/idm1iw', '_blank');
 
   const handleEmailClick = () => {
-    window.location.href = 'mailto:info@yemenai.ai';
+    window.location.href = 'mailto:info@ilensai.com';
   };
 
   return (
@@ -45,7 +45,7 @@ export default function ContactSection() {
               className="w-full text-sm"
               variant="outline"
             >
-              info@yemenai.ai
+              info@ilensai.com
             </Button>
           </Card>
 
@@ -69,7 +69,7 @@ export default function ContactSection() {
 
         {/* Company Info */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
-          {/* Why Naba AI Section */}
+          {/* Why I Lens AI Section */}
           <div className="group">
             <div className="relative overflow-hidden bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-3xl p-8 border-2 border-amber-200/50 dark:border-amber-800/50 shadow-lg hover:shadow-2xl transition-all duration-500 group-hover:scale-[1.02]">
               {/* Decorative elements */}
@@ -86,7 +86,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="text-2xl md:text-3xl font-bold text-amber-700 dark:text-amber-300 leading-tight">
-                      {t.contact.whyYemenAI}
+                      {t.contact.whyILensAI}
                     </h3>
                     <div className="flex items-center gap-2 mt-2">
                       <div className="w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
@@ -159,7 +159,7 @@ export default function ContactSection() {
           <div className="flex justify-center items-center">
             <img
               src="/logov1.png"
-              alt="Yemen AI Logo"
+              alt="I Lens AI Logo"
               className="max-h-12 sm:max-h-14 lg:max-h-16 h-auto w-auto max-w-full opacity-60"
             />
           </div>

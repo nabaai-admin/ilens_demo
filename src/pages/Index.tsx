@@ -61,7 +61,7 @@ const Index = () => {
             <div className="text-center sm:text-right">
               <img
                 src="/lovable-uploads/nabaai_logo.png"
-                alt="Yemen AI Logo"
+                alt="I Lens AI Logo"
                 className="max-h-14 sm:max-h-16 lg:max-h-20 h-auto w-auto max-w-full mx-auto sm:mx-0 mb-3 sm:mb-4"
               />
               <p className="text-sm sm:text-base text-primary-foreground/80 leading-relaxed">
@@ -82,14 +82,14 @@ const Index = () => {
             <div className="text-center sm:text-right sm:col-span-2 lg:col-span-1">
               <h4 className="font-semibold text-base sm:text-lg mb-3 sm:mb-4">{language === 'en' ? 'Contact Us' : 'تواصل معنا'}</h4>
               <div className="space-y-1.5 sm:space-y-2 text-sm sm:text-base text-primary-foreground/80">
-                <p>✉️ <a href="mailto:info@yemenai.ai" className="hover:underline">info@yemenai.ai</a></p>
+                <p>✉️ <a href="mailto:info@ilensai.com" className="hover:underline">info@ilensai.com</a></p>
                 <p>{language === 'en' ? '💬 Floating icon: Try the I Lens smart agent for free' : '💬 الأيقونة العائمة: جرِّب وكيل آي لِنس الذكي مجاناً'}</p>
               </div>
             </div>
           </div>
 
           <div className="border-t border-primary-foreground/20 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-sm sm:text-base text-primary-foreground/80">
-            <p>&copy; 2025 جميع الحقوق محفوظة لمؤسسة جنى محمد الجعيد التقنية</p>
+            <p>&copy; 2025 {language === 'en' ? 'All rights reserved - I Lens' : 'جميع الحقوق محفوظة - عدسات آي لِنس'}</p>
           </div>
         </div>
       </footer>

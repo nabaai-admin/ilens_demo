@@ -284,7 +284,7 @@ export default function FeaturesSection() {
             </div>
             
             <h3 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-foreground mb-6 sm:mb-8">
-              {language === 'en' ? 'Expected Benefits with Naba AI' : 'المزايا المتوقعة مع Naba AI'}
+              {language === 'en' ? 'Expected Benefits with I Lens AI' : 'المزايا المتوقعة مع I Lens AI'}
             </h3>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
@@ -356,7 +356,7 @@ export default function FeaturesSection() {
                       {language === 'en' ? 'Additional Benefits' : 'فوائد إضافية'}
                     </h4>
                     <p className="text-sm sm:text-base lg:text-lg text-emerald-700 dark:text-emerald-300 max-w-2xl mx-auto">
-                      {language === 'en' ? 'Additional advantages that make Naba AI the optimal choice for AI solutions.' : 'مزايا إضافية تجعل Naba AI الخيار الأمثل لحلول الذكاء الاصطناعي'}
+                      {language === 'en' ? 'Additional advantages that make I Lens AI the optimal choice for AI solutions.' : 'مزايا إضافية تجعل I Lens AI الخيار الأمثل لحلول الذكاء الاصطناعي'}
                     </p>
                   </div>
 
@@ -443,7 +443,7 @@ export default function FeaturesSection() {
                   <div className="mt-8 sm:mt-12 text-center">
                     <div className="inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
                       <Heart className="w-5 h-5 sm:w-6 sm:h-6" />
-                      <span className="text-sm sm:text-base font-semibold">{language === 'en' ? 'Start Your Journey with Naba AI Today' : 'ابدأ رحلتك مع Naba AI اليوم'}</span>
+                      <span className="text-sm sm:text-base font-semibold">{language === 'en' ? 'Start Your Journey with I Lens AI Today' : 'ابدأ رحلتك مع I Lens AI اليوم'}</span>
                     </div>
                   </div>
                 </div>

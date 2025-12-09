@@ -1,6 +1,6 @@
-# I Lens Yemen AI Demo - Docker Setup
+# I Lens I Lens AI Demo - Docker Setup
 
-This document provides instructions for running the I Lens Yemen AI Demo React application using Docker.
+This document provides instructions for running the I Lens I Lens AI Demo React application using Docker.
 
 ## Prerequisites
 

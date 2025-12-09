@@ -1,5 +1,5 @@
-# حلول Yemen AI لعدسات آي لِنس I Lens
-## Yemen AI Solutions for I Lens Contact Lenses
+# حلول I Lens AI لعدسات آي لِنس I Lens
+## I Lens AI Solutions for I Lens Contact Lenses
 
 ---
 
@@ -8,8 +8,8 @@
 **عدسات آي لِنس** - عدسات لاصقة ملونة عالية الجودة مصنوعة من أجود المواد الخام الكورية
 **I Lens** - High-quality colored contact lenses made from premium Korean materials
 
-**Yemen AI** متخصص في تطوير حلول الذكاء الاصطناعي المتقدمة لتحويل تجارتكم الإلكترونية
-**Yemen AI** specializes in advanced AI solutions to transform your e-commerce business
+**I Lens AI** متخصص في تطوير حلول الذكاء الاصطناعي المتقدمة لتحويل تجارتكم الإلكترونية
+**I Lens AI** specializes in advanced AI solutions to transform your e-commerce business
 
 ---
 
@@ -34,8 +34,8 @@
 
 ---
 
-## 🤖 ما الذي يمكن أن يقدمه Yemen AI لعدسات آي لِنس؟
-## What can Yemen AI offer to I Lens?
+## 🤖 ما الذي يمكن أن يقدمه I Lens AI لعدسات آي لِنس؟
+## What can I Lens AI offer to I Lens?
 
 ### 1. 💬 خدمة عملاء ذكية 24/7 | 24/7 AI Customer Service
 
@@ -208,8 +208,8 @@
 
 ## 📞 التواصل | Contact
 
-**Yemen AI**
-- 📧 البريد الإلكتروني | Email: info@yemenai.ai
+**I Lens AI**
+- 📧 البريد الإلكتروني | Email: info@ilensai.com
 - 💬 جرب الوكيل الذكي مجاناً | Try the AI agent for free (see floating chat icon)
 - 📱 استشارة مجانية | Free consultation available
 
@@ -287,5 +287,5 @@ Do you need lens solution? We have excellent types!
 
 ---
 
-*© 2025 Yemen AI - حلول الذكاء الاصطناعي المتقدمة*
-*© 2025 Yemen AI - Advanced AI Solutions*
+*© 2025 I Lens AI - حلول الذكاء الاصطناعي المتقدمة*
+*© 2025 I Lens AI - Advanced AI Solutions*

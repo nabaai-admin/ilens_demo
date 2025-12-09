@@ -136,7 +136,7 @@ export interface Translations {
     phoneDescription: string;
     whatsappDescription: string;
     contactViaWhatsapp: string;
-    whyYemenAI: string;
+    whyILensAI: string;
     whySubtitle: string;
     service247: {
       title: string;
@@ -481,7 +481,7 @@ export const translations: Record<Language, Translations> = {
       },
     },
     expectedBenefits: {
-      title: "المزايا المتوقعة مع Naba AI",
+      title: "المزايا المتوقعة مع I Lens AI",
       customerExperience: {
         title: "تحسين",
         subtitle: "تجربة العملاء",
@@ -500,7 +500,7 @@ export const translations: Record<Language, Translations> = {
     },
     additionalBenefits: {
       title: "فوائد إضافية",
-      subtitle: "مزايا إضافية تجعل Naba AI الخيار الأمثل لحلول الذكاء الاصطناعي",
+      subtitle: "مزايا إضافية تجعل I Lens AI الخيار الأمثل لحلول الذكاء الاصطناعي",
       security: {
         title: "أمان متقدم",
         description: "حماية شاملة للبيانات مع أحدث تقنيات التشفير والأمان",
@@ -517,10 +517,10 @@ export const translations: Record<Language, Translations> = {
         title: "دعم 24/7",
         description: "فريق دعم متخصص متاح على مدار الساعة لمساعدتك",
       },
-      cta: "ابدأ رحلتك مع Naba AI اليوم",
+      cta: "ابدأ رحلتك مع I Lens AI اليوم",
     },
     contact: {
-      title: "معنا في Naba AI",
+      title: "معنا في I Lens AI",
       subtitle: "حلول ذكاء اصطناعي متطورة للأعمال في المملكة العربية السعودية",
       email: "البريد الإلكتروني",
       phone: "الهاتف",
@@ -529,7 +529,7 @@ export const translations: Record<Language, Translations> = {
       phoneDescription: "تحدث مباشرة مع خبرائنا",
       whatsappDescription: "تواصل سريع ومباشر",
       contactViaWhatsapp: "تواصل عبر واتساب",
-      whyYemenAI: "لماذا Naba AI؟",
+      whyILensAI: "لماذا I Lens AI؟",
       whySubtitle: "الخيار الأمثل للذكاء الاصطناعي",
       service247: {
         title: "خدمة 24/7",
@@ -544,7 +544,7 @@ export const translations: Record<Language, Translations> = {
         description: "تقنيات ذكية متطورة تغطي جميع احتياجات الشركات والمؤسسات",
       },
       bestPrices: "أفضل الأسعار والخدمات",
-      bestPricesSubtitle: "Naba AI - أفضل الحلول الذكية من المنافسين العالميين",
+      bestPricesSubtitle: "I Lens AI - أفضل الحلول الذكية من المنافسين العالميين",
       competitivePrices: "حلول ذكية بأسعار تنافسية أقل من المنافسين العالميين",
       customExperience: "تجربة مخصصة لاحتياجاتك",
       localSupport: "خدمة عملاء محلية 24/7",
@@ -797,7 +797,7 @@ export const translations: Record<Language, Translations> = {
       contact: "Contact",
     },
     hero: {
-      title: "Naba AI",
+      title: "I Lens AI",
       subtitle: "Intelligent Automation & Predictive Solutions",
       description: "Advanced AI solutions empowering businesses in Saudi Arabia to operate smarter, faster, and more efficiently",
       ctaButton: "Start Your Journey",
@@ -862,7 +862,7 @@ export const translations: Record<Language, Translations> = {
       },
     },
     expectedBenefits: {
-      title: "Expected Benefits with Naba AI",
+      title: "Expected Benefits with I Lens AI",
       customerExperience: {
         title: "Improve",
         subtitle: "Customer Experience",
@@ -881,7 +881,7 @@ export const translations: Record<Language, Translations> = {
     },
     additionalBenefits: {
       title: "Additional Benefits",
-      subtitle: "Additional advantages that make Naba AI the optimal choice for AI solutions",
+      subtitle: "Additional advantages that make I Lens AI the optimal choice for AI solutions",
       security: {
         title: "Advanced Security",
         description: "Comprehensive data protection with the latest encryption and security technologies",
@@ -898,10 +898,10 @@ export const translations: Record<Language, Translations> = {
         title: "24/7 Support",
         description: "Specialized support team available around the clock to help you",
       },
-      cta: "Start Your Journey with Naba AI Today",
+      cta: "Start Your Journey with I Lens AI Today",
     },
     contact: {
-      title: "With Naba AI",
+      title: "With I Lens AI",
       subtitle: "Advanced AI solutions for businesses in Saudi Arabia",
       email: "Email",
       phone: "Phone",
@@ -910,7 +910,7 @@ export const translations: Record<Language, Translations> = {
       phoneDescription: "Talk directly with our experts",
       whatsappDescription: "Quick and direct communication",
       contactViaWhatsapp: "Contact via WhatsApp",
-      whyYemenAI: "Why Naba AI?",
+      whyILensAI: "Why I Lens AI?",
       whySubtitle: "The optimal choice for artificial intelligence",
       service247: {
         title: "24/7 Service",

@@ -9,50 +9,55 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 220 15% 25%;
+    --foreground: 215 20% 30%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 15% 25%;
+    --card-foreground: 215 20% 30%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 25%;
+    --popover-foreground: 215 20% 30%;
 
-    /* I Lens Soft Brand Colors - Pink/Coral theme */
-    --primary: 340 82% 75%; /* Soft pink/coral #f59bb5 */
+    /* I Lens Soft Brand Colors - Light Blue/Sky theme */
+    --primary: 200 85% 70%;
+    /* Soft sky blue #70bfed */
     --primary-foreground: 0 0% 100%;
-    --primary-light: 340 82% 85%;
-    --primary-dark: 340 82% 65%;
+    --primary-light: 200 85% 80%;
+    --primary-dark: 200 85% 60%;
 
-    --secondary: 320 70% 80%; /* Light lavender-pink */
+    --secondary: 190 75% 75%;
+    /* Light aqua blue */
     --secondary-foreground: 0 0% 100%;
-    --secondary-light: 320 70% 90%;
-    --secondary-dark: 320 70% 70%;
+    --secondary-light: 190 75% 85%;
+    --secondary-dark: 190 75% 65%;
 
-    --accent: 340 100% 97%; /* Very light pink */
-    --accent-foreground: 340 82% 35%;
+    --accent: 200 100% 97%;
+    /* Very light blue */
+    --accent-foreground: 200 80% 35%;
 
-    --muted: 320 30% 96%; /* Very light lavender */
-    --muted-foreground: 220 15% 55%;
+    --muted: 200 30% 96%;
+    /* Very light sky blue */
+    --muted-foreground: 215 15% 55%;
 
-    /* Header specific - soft pastel background */
-    --header-bg: 340 100% 97%; /* Very light pink #fff5f8 */
+    /* Header specific - soft pastel blue background */
+    --header-bg: 200 100% 97%;
+    /* Very light blue #f0f9ff */
 
     --destructive: 0 70% 65%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 320 25% 92%;
-    --input: 320 25% 95%;
-    --ring: 340 82% 75%;
+    --border: 200 25% 92%;
+    --input: 200 25% 95%;
+    --ring: 200 85% 70%;
 
-    /* Gradients - soft and elegant */
+    /* Gradients - soft and elegant blue tones */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
-    --gradient-hero: linear-gradient(135deg, hsl(340 82% 85%) 0%, hsl(320 70% 85%) 50%, hsl(300 65% 85%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(200 85% 80%) 0%, hsl(190 75% 80%) 50%, hsl(180 70% 80%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(var(--background)) 0%, hsl(var(--accent)) 100%);
-    
+
     /* Shadows - softer and lighter */
-    --shadow-elegant: 0 10px 30px -10px hsl(340 82% 75% / 0.25);
-    --shadow-glow: 0 0 40px hsl(340 82% 75% / 0.15);
-    --shadow-float: 0 20px 40px -10px hsl(340 82% 75% / 0.12);
+    --shadow-elegant: 0 10px 30px -10px hsl(200 85% 70% / 0.25);
+    --shadow-glow: 0 0 40px hsl(200 85% 70% / 0.15);
+    --shadow-float: 0 20px 40px -10px hsl(200 85% 70% / 0.12);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -60,21 +65,21 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    --sidebar-background: 340 100% 98%;
+    --sidebar-background: 200 100% 98%;
 
-    --sidebar-foreground: 220 15% 30%;
+    --sidebar-foreground: 215 20% 30%;
 
-    --sidebar-primary: 340 82% 75%;
+    --sidebar-primary: 200 85% 70%;
 
     --sidebar-primary-foreground: 0 0% 100%;
 
-    --sidebar-accent: 340 100% 96%;
+    --sidebar-accent: 200 100% 96%;
 
-    --sidebar-accent-foreground: 340 82% 35%;
+    --sidebar-accent-foreground: 200 80% 35%;
 
-    --sidebar-border: 320 25% 92%;
+    --sidebar-border: 200 25% 92%;
 
-    --sidebar-ring: 340 82% 75%;
+    --sidebar-ring: 200 85% 70%;
   }
 
   .dark {
@@ -121,6 +126,7 @@ All colors MUST be HSL.
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -128,6 +134,7 @@ All colors MUST be HSL.
 
 /* Custom responsive utilities */
 @layer utilities {
+
   /* Safe area padding for mobile devices */
   .safe-area-padding {
     padding-left: env(safe-area-inset-left);
@@ -140,23 +147,23 @@ All colors MUST be HSL.
   .text-responsive-xs {
     @apply text-xs sm:text-sm;
   }
-  
+
   .text-responsive-sm {
     @apply text-sm sm:text-base;
   }
-  
+
   .text-responsive-base {
     @apply text-base sm:text-lg;
   }
-  
+
   .text-responsive-lg {
     @apply text-lg sm:text-xl lg:text-2xl;
   }
-  
+
   .text-responsive-xl {
     @apply text-xl sm:text-2xl lg:text-3xl;
   }
-  
+
   .text-responsive-2xl {
     @apply text-2xl sm:text-3xl lg:text-4xl;
   }
@@ -165,15 +172,15 @@ All colors MUST be HSL.
   .spacing-responsive-xs {
     @apply p-2 sm:p-3 lg:p-4;
   }
-  
+
   .spacing-responsive-sm {
     @apply p-3 sm:p-4 lg:p-6;
   }
-  
+
   .spacing-responsive-md {
     @apply p-4 sm:p-6 lg:p-8;
   }
-  
+
   .spacing-responsive-lg {
     @apply p-6 sm:p-8 lg:p-12;
   }
@@ -197,11 +204,11 @@ All colors MUST be HSL.
   .grid-responsive-1 {
     @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
   }
-  
+
   .grid-responsive-2 {
     @apply grid grid-cols-1 md:grid-cols-2;
   }
-  
+
   .grid-responsive-3 {
     @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
   }

@@ -2,7 +2,7 @@
 
 ## ✅ Summary of Changes
 
-All Docker configurations have been updated to reflect the **I Lens Yemen AI Demo** project, removing all references to previous projects (CleanLife, Yemen Mobile, Naba AI, etc.).
+All Docker configurations have been updated to reflect the **I Lens I Lens AI Demo** project, removing all references to previous projects (CleanLife, Yemen Mobile, Naba AI, etc.).
 
 ---
 
@@ -15,17 +15,17 @@ All Docker configurations have been updated to reflect the **I Lens Yemen AI Dem
 - **Network:** Changed from `abdulftah-cv-civil_default` (external) to `ilens-network` (bridge)
 
 ### 2. **Dockerfile** ✅
-- Updated comment from "Build the React app" to "Build I Lens Yemen AI Demo React App"
+- Updated comment from "Build the React app" to "Build I Lens I Lens AI Demo React App"
 - Multi-stage build for production (Node 20 → Nginx Alpine)
 - Optimized for React/Vite build process
 
 ### 3. **Dockerfile.dev** ✅
-- Updated comment to reference "I Lens Yemen AI Demo"
+- Updated comment to reference "I Lens I Lens AI Demo"
 - Changed development port from `3000` to `5173` (Vite default)
 - Configured for hot-reloading development environment
 
 ### 4. **nginx.conf** ✅
-- Updated comment from "Naba AI - CleanLife Demo" to "Yemen AI - I Lens Demo"
+- Updated comment from "Naba AI - CleanLife Demo" to "I Lens AI - I Lens Demo"
 - Production-ready configuration with:
   - SPA routing support
   - Gzip compression
@@ -33,7 +33,7 @@ All Docker configurations have been updated to reflect the **I Lens Yemen AI Dem
   - Security headers
 
 ### 5. **README-Docker.md** ✅
-- Title changed to "I Lens Yemen AI Demo - Docker Setup"
+- Title changed to "I Lens I Lens AI Demo - Docker Setup"
 - All port references updated to `7098` (production) and `5173` (development)
 - Container names updated to `ilens-yemen-ai-demo` and `ilens-web`
 - Image name updated to `ilens-yemen-ai-demo`
@@ -42,7 +42,7 @@ All Docker configurations have been updated to reflect the **I Lens Yemen AI Dem
 ### 6. **Application Content** ✅
 All CleanLife references removed from:
 - `src/lib/translations.ts` - All "CleanLife" replaced with "I Lens"
-- `src/components/ContactSection.tsx` - Email updated to `info@yemenai.ai`, demo text changed
+- `src/components/ContactSection.tsx` - Email updated to `info@ilensai.com`, demo text changed
 - `src/components/ChatDemo.tsx` - CleanLife chatbot messages updated to I Lens
 - `src/components/CallCenterTransformation.tsx` - All CleanLife capacity/integration text updated
 
@@ -135,7 +135,7 @@ All references to the following have been removed:
 
 All replaced with:
 - ✅ I Lens (عدسات آي لِنس)
-- ✅ Yemen AI
+- ✅ I Lens AI
 - ✅ ilens-network
 - ✅ Port 7098
 
@@ -167,6 +167,6 @@ All replaced with:
 ---
 
 *Last updated: 2025-12-09*
-*Project: I Lens Yemen AI Demo*
+*Project: I Lens I Lens AI Demo*
 *Port: 7098*
 *Network: ilens-network*

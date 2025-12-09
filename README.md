@@ -1,8 +1,8 @@
-# Yemen AI Demo for I Lens (عدسات آي لِنس)
+# I Lens AI Demo for I Lens (عدسات آي لِنس)
 
 ## 🎯 Project Overview
 
-**Demo Application** showcasing Yemen AI's intelligent solutions for **I Lens** contact lens business.
+**Demo Application** showcasing I Lens AI's intelligent solutions for **I Lens** contact lens business.
 
 This interactive demo demonstrates how AI can transform contact lens e-commerce through:
 - 24/7 customer service on WhatsApp & social media
@@ -15,7 +15,7 @@ This interactive demo demonstrates how AI can transform contact lens e-commerce 
 
 ## 📄 Documentation
 
-See **[ILENS_PROPOSAL.md](./ILENS_PROPOSAL.md)** for complete details about Yemen AI solutions for I Lens.
+See **[ILENS_PROPOSAL.md](./ILENS_PROPOSAL.md)** for complete details about I Lens AI solutions for I Lens.
 
 ---
 

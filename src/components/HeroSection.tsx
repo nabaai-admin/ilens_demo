@@ -20,7 +20,7 @@ export default function HeroSection() {
           <div className="mb-8 sm:mb-10 animate-fade-in">
             <img
               src="/lovable-uploads/nabaai_logo.png"
-              alt="Yemen AI Logo"
+              alt="I Lens AI Logo"
               className="max-h-16 sm:max-h-20 lg:max-h-24 h-auto w-auto max-w-full mx-auto mb-3 sm:mb-4"
             />
             <p className="mx-auto inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs sm:text-sm lg:text-base bg-gradient-to-r from-cyan-600/90 to-emerald-600/90 text-white shadow-md">
@@ -32,7 +32,7 @@ export default function HeroSection() {
           <div className="animate-slide-up mb-8 sm:mb-10">
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold mb-5 sm:mb-6 leading-loose tracking-wide">
               <div className="block mb-2 bg-gradient-to-r from-teal-500 via-cyan-500 to-emerald-500 bg-clip-text text-transparent drop-shadow">
-                {language === 'en' ? 'Yemen AI Solutions for I Lens' : 'حلول Yemen AI لعدسات آي لِنس'}
+                {language === 'en' ? 'I Lens AI Solutions for I Lens' : 'حلول I Lens AI لعدسات آي لِنس'}
               </div>
               <div className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-800 dark:text-slate-100">
                 {language === 'en' ? 'Transform Your Contact Lens Business with Intelligent AI' : 'حوّل تجارة العدسات اللاصقة بالذكاء الاصطناعي المتقدم'}
@@ -91,13 +91,13 @@ export default function HeroSection() {
               className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg text-sm sm:text-base"
               onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              {language === 'en' ? 'Explore Yemen AI Solutions' : 'اكتشف حلول Yemen AI'}
+              {language === 'en' ? 'Explore I Lens AI Solutions' : 'اكتشف حلول I Lens AI'}
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="w-full sm:w-auto border-primary text-primary hover:bg-primary/10 text-sm sm:text-base"
-              onClick={() => { window.location.href = 'mailto:info@yemenai.ai?subject=طلب%20استشارة%20-%20Yemen%20AI'; }}
+              onClick={() => { window.location.href = 'mailto:info@ilensai.com?subject=طلب%20استشارة%20-%20I%20Lens%20AI'; }}
             >
               {language === 'en' ? 'Get a Free Consultation' : 'احصل على استشارة مجانية'}
             </Button>
